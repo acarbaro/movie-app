@@ -124,11 +124,14 @@
 @media screen and (max-width: 768px) {
   .description-title-container {
     width: 95%;
-    align-items: flex-start;
+    height: 95px;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .description-title-container > a {
-    width: 80px
+    width: 65px;
+    height: 65px;
   }
 }
 
