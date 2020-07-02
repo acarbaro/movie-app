@@ -12,7 +12,6 @@ export default function MoviesList({ moviesList }) {
    }
 
    const handleToggleModal = () => {
-     document.body.style.overflow = !toggleModal ? "hidden" : "initial"
       setToggleModal(!toggleModal);
    }
 

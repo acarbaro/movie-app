@@ -48,7 +48,7 @@ function Modal({ handleToggleModal, currentMovie, handleCurrentMovie }) {
                         </a>
                      }
                   </div>
-                  <p className="description-tagline">"{currentMovie.tagline}"</p>
+                  <p className="description-tagline">{currentMovie.tagline}</p>
                   <span>Release Date: 
                      <span className="description-main-text"> {currentMovie.release_date}</span>
                   </span>
