@@ -120,6 +120,17 @@
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .description-title-container {
+    width: 95%;
+    align-items: flex-start;
+  }
+
+  .description-title-container > a {
+    width: 80px
+  }
+}
+
 .description-tagline {
   margin: 0;
   margin-bottom: 15px;
